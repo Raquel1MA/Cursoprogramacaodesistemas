@@ -1,0 +1,21 @@
+<body>
+    <script>
+        let quarto= {
+            acomodacoes: 15,
+            disponivel: true, 
+
+            disponibilidade: function(){
+            if (this.disponivel=== true){
+                this.disponivel = false;
+            }else{
+                this.disponivel = true;
+            }
+
+            }
+             
+        }
+        console.log(quarto.disponivel);
+        quarto.disponibilidade();
+        console.log(quarto.disponivel);
+    </script>
+</body>
