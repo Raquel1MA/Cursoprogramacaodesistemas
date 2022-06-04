@@ -1,0 +1,42 @@
+<body>
+    <script>
+        let numero1 = Number(prompt("digite um número: "));
+        let numero2 = Number(prompt(" Digite um outro número: "));
+        let operacao = prompt("Digite uma operação ");
+
+        function calculadora(numero1, numero2, operacao) {
+            let calculo;
+            switch (operacao) {
+                case  "soma":
+                 calculo=   numero1 + numero2;
+                    break;
+
+                case "subtrair":
+                 calculo=   numero1 - numero2;
+                    break;
+
+                case " multiplicar":
+                 calculo=   numero1 * numero2;
+                    break;
+
+                case  "divisão":
+                 calculo=   numero1 / numero2;
+                    break;
+
+            }
+
+        
+            return calculo;
+        }
+
+        let resultado = calculadora(numero1, numero2, operacao);
+        console.log(resultado );
+
+
+
+
+
+
+
+    </script>
+</body>
